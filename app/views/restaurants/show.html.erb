@@ -1,0 +1,5 @@
+<h2> <%= @restaurant.name %> </h2>
+<h6><em> <%= @restaurant.category.capitalize %> cuisine </em></h6>
+<p> <%= @restaurant.address %> </p>
+<p> <%= @restaurant.phone_number %> </p>
+<%= link_to 'Back to all restaurants', restaurants_path %>
